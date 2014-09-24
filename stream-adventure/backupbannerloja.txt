@@ -1,0 +1,101 @@
+<kanlo:component>
+<div id="banners">
+ <div id="carousel">
+
+         <div id="slides-carousel"> 
+            <ul class="bxslider">
+
+
+
+
+
+
+        <li>
+            <div class="slider2Content" style="background: url('https://s3-sa-east-1.amazonaws.com/kanlo3.kanlo.com.br/3coracoes/assets/images/campanhagesto_full.jpg') center top #7f0f0e;">
+                <div class="slidermain">
+                    <a href="http://loja.escolhatres.com.br/maquinas#gesto" target="_self">
+                      <div class="sliderBlock">
+                      </div>
+                    </a>
+                </div>
+            </div>
+        </li>
+
+
+
+
+
+
+<!--
+
+
+
+<li>
+    <div class="slider2Content" style="background: url('http://static-kanlo3.kanlo.com.br/3coracoes/assets/images/serv_branca.jpg') center top #7f0f0e;">
+        <div class="slidermain">
+            <a href="http://loja.trescompleta.com.br/product/maquinas/119568314/serv-branca" target="_self">
+              <div class="sliderBlock">
+              </div>
+            </a>
+        </div>
+    </div>
+</li>
+
+
+ 
+                    
+ <li>
+                            <div class="slider1Content">
+                               <div class="slidermain">
+                            	<div class="sliderBlock">
+                                   <a href="/product/maquinas/116559076/modo-vermelha">
+                            		<img src="//d3qolcg8eouc81.cloudfront.net/3coracoes/assets/images/banner-image1.png?10"  width="220" height="284" alt="Slide 1"/>
+                               </a>
+                            		<strong>modo</strong><span>compacta e divertida</span><a  class="detalhesbanners" href="/product/maquinas/116559076/modo-vermelha">detalhes</a>
+                                </div>
+                                <div class="sliderBlock">
+                             <a href="/product/maquinas/116559375/maquina-de-cafe-espresso-tres-vermelho-s06hs-gesto-">
+                            		<img src="//d3qolcg8eouc81.cloudfront.net/3coracoes/assets/images/banner-image2.png?10"  width="220" height="284" alt="Slide 1"/>
+                               </a>
+                            		<strong>gesto</strong><span>moderna e arrojada</span><a class="detalhesbanners" href="/product/maquinas/116559375/maquina-de-cafe-espresso-tres-vermelho-s06hs-gesto-">detalhes</a>
+                                </div>
+                                <div class="sliderBlock">
+                           <a href="/product/maquinas/116559252/maquina-de-cafe-espresso-tres-vermelho-s05-serve-">
+                            		<img src="//d3qolcg8eouc81.cloudfront.net/3coracoes/assets/images/banner-image3.png?11"  width="220" height="284" alt="Slide 1"/>
+                                </a>
+                            		<strong>serv</strong><span>food solutions</span><a class="detalhesbanners" href="/product/maquinas/116559252/maquina-de-cafe-espresso-tres-vermelho-s05-serve-">detalhes</a>
+                                </div>
+                               </div>
+                              </div>
+                             </li>
+                     
+
+                       
+  -->
+
+
+                          <li>
+                            <div class="slider2Content">
+                               <div class="slidermain">
+                                    <div class="sliderBlock">
+                                            <img src="http://static-kanlo3.kanlo.com.br/3coracoes/assets/images/banner_frente_03.png" />
+                                    </div>
+                                 </div>
+                              </div>
+                          </li>
+
+                            
+                            
+                         </ul>
+                         <div class="wrapper">
+                         	<div id="buttons">
+                       			<a href="#" id="prev"></a>
+                       		 	<a href="#" id="next"></a>
+                    		 </div>
+                         </div>
+                    </div>
+                </div>
+
+</div>
+
+</kanlo:component>
