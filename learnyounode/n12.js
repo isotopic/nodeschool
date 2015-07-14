@@ -30,6 +30,8 @@ http.createServer(function(request, response) {
 	    	response.end(queryData.toUpperCase());
 	    });
 
+	}else{
+		response.end('Request was not a POST.');
 	}
 
 
