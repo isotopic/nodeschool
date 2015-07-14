@@ -1,21 +1,24 @@
 
 
-var through = require('through');
+
+var through = require('through2');
+
 var split = require('split');
 
 var even = false;
 
-process.stdin
-    .pipe(split('\n'))
-    .pipe(through(function (line) {
+var tr = through(function(buf, _, next){
+	if(even){
+		console.log(buf.toString().toUpperCase());
+	}else{
+		console.log(buf.toString().toLowerCase());
+	}
+	even = !even;
+	next();
+});
 
-    	if(even){
-    		console.log(line.toString().toUpperCase());
-    	}else{
-    		console.log(line.toString().toLowerCase());
-    	}
-    	even = !even;
-        
+process.stdin.pipe(split()).pipe(tr).pipe(process.stdout);
 
-    }))
-;
+
+
+
